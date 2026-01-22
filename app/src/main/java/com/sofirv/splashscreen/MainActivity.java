@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAnimationEnd(Animation animation) {
                 // Cambia a tu Activity principal (MainMenuActivity)
-                Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
+                Intent intent = new Intent(MainActivity.this, SplashActivity.class);
                 startActivity(intent);
                 finish(); // cierra splash
             }
